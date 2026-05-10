@@ -1,0 +1,8 @@
+C:\Users\varta\Downloads\cinema\CinemaProject\obj\Debug\net9.0\CinemaProject.csproj.AssemblyReference.cache
+C:\Users\varta\Downloads\cinema\CinemaProject\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\varta\Downloads\cinema\CinemaProject\obj\Debug\net9.0\CinemaProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\varta\Downloads\cinema\CinemaProject\obj\Debug\net9.0\CinemaProject.AssemblyInfoInputs.cache
+C:\Users\varta\Downloads\cinema\CinemaProject\obj\Debug\net9.0\CinemaProject.AssemblyInfo.cs
+C:\Users\varta\Downloads\cinema\CinemaProject\obj\Debug\net9.0\CinemaProject.csproj.CoreCompileInputs.cache
+C:\Users\varta\Downloads\cinema\CinemaProject\obj\Debug\net9.0\CinemaProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\varta\Downloads\cinema\CinemaProject\obj\Debug\net9.0\CinemaProject.MvcApplicationPartsAssemblyInfo.cache
