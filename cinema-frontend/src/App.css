@@ -1,0 +1,311 @@
+body {
+  background-color: black;
+  color: white;
+
+  font-family: Arial, sans-serif;
+}
+
+.navigaciq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.fimlnotfound {
+  width: 100%;  
+  text-align: center;
+}
+
+.fuilmihed {
+  width: 100%;  
+  text-align: center;
+}
+
+.loginhead {
+  width: 100%;  
+  text-align: center;
+  margin-top: 150px;
+}
+
+.loginemail {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+}
+
+.loginpass {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+}
+
+.loginbtn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.logintoreg {
+  width: 100%;  
+  text-align: center;
+}
+
+.loginhyp {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.loginerror {
+  color: red;
+  text-align: center;
+}
+
+.create-movie-container {
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.create-movie-title,
+.create-movie-category,
+.create-movie-image-url,
+.create-movie-description {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+
+.create-movie-description {
+  resize: vertical;
+}
+
+.create-movie-create {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.create-movie-error {
+  color: red;
+  text-align: center;
+}
+
+.create-movie-name {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.movie-box {
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.movie-title {
+  margin-bottom: 10px;
+}
+
+.movie-photo {
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  width: 100%;
+  height: 300px;
+}
+
+.movie-description {
+  margin-bottom: 15px;
+}
+
+.movie-descripton2 {
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.movie-rating {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.movie-rating2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #ffcc00;
+}
+
+.movie-bnt {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.moviues-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.detmov-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.detmov-photo {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.detmov-descripton {
+  font-size: 18px;
+  line-height: 1.6;
+    margin: 10px 20px;
+}
+
+
+.detmov-category {
+  font-weight: bold;
+  margin: 10px 20px;
+}
+
+.detmov-likes {
+  font-weight: bold;
+  margin: 10px 20px;
+}
+
+.detmov-views {
+  font-weight: bold;
+  margin: 10px 20px;
+}
+
+.detmov-like {
+  color: #ff0000;
+}
+
+.detmov-rating {
+  font-weight: bold;
+  margin: 10px 20px;
+  color: #ffcc00;
+  font-size: 25px;
+}
+
+.detmov-likebtn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff0000;
+  color: white;
+  cursor: pointer;
+}
+
+.detmov-commenta {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.detmov-comment {
+  margin: 5px 0;
+}
+
+.detmov-textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  resize: vertical;
+}
+
+.detmov-commentbtn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.detmov-editbtn {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffc107;
+  color: black;
+  cursor: pointer;
+}
+
+.detmov-deletebtn {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+.categories-list {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column; /* един под друг */
+  align-items: center;    /* център хоризонтално */
+  gap: 30px;              /* разстояние между бутоните */
+}
+
+.cagroty_hypr-button {
+  color: white;
+  text-decoration: none;
+  background-color: #007bff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  min-width: 200px;
+  text-align: center;
+}
